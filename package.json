@@ -1,0 +1,24 @@
+{
+  "name": "number-guessing-game",
+  "version": "1.0.0",
+  "description": "This is a game in which a user will input a number and it will be matched with a random number given by computer, if number match then the user will win, otherwise the user will lose the game.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M Mehmood Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16",
+    "rxjs": "^7.8.1",
+    "tslib": "^2.6.2",
+    "undici-types": "^5.26.5"
+  },
+  "keywords": []
+}
